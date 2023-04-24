@@ -1,0 +1,25 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "npm install": {
+      "name": "npm install",
+      "command": "npm install",
+      "runAtStart": true
+    },
+    "npm run upload": {
+      "name": "npm run upload",
+      "command": "npm run upload"
+    },
+    ".//ramp-fe-challenge/public/index.html": {
+      "name": ".//ramp-fe-challenge/public/index.html",
+      "command": ".//ramp-fe-challenge/public/index.html"
+    },
+    "chmod 777 /ramp-fe-challenge/public/index.html": {
+      "name": "chmod 777 /ramp-fe-challenge/public/index.html",
+      "command": "chmod 777 /ramp-fe-challenge/public/index.html"
+    }
+  }
+}
